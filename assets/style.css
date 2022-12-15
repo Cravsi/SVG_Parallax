@@ -27,6 +27,11 @@ p, h2 {
     color: aliceblue;
 }
 
+p {
+    font-size: 12;
+    line-height: 3;
+}
+
 .container {
     display: grid;
     width: 100%;
@@ -58,7 +63,7 @@ p, h2 {
 #site-header-mask {
     position:absolute;
     inset:0;
-    background: rgba(255, 0, 0, 0.219);
+    background: rgba(0, 0, 0, 0.1);
 
     -webkit-mask: url("images/skybox.svg");
     mask: url("images/skybox.svg");
